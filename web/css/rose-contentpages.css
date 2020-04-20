@@ -1,0 +1,152 @@
+#footer {
+	border-top: 75px solid #f9f5ec;
+}
+
+#header {
+	background: transparent url(../images/content-bg.gif) repeat 0 0;
+	height: 81px;
+	overflow: hidden;
+	text-align: right;
+	width: 100%;
+}
+
+.section {
+	padding: 20px 25px 0 75px;
+}
+
+h1 {
+	font-family: Georgia, serif;
+	font-size: 1.3em;
+	color: #464339;
+ 	color: #1d40a6;
+	margin: 10px 0 0 0;
+	padding: .5em 0 .5em 0;
+}
+
+h2 {
+	font-family: Arial;
+	font-size: 1em;
+    	color: #464339;
+	font-weight: bold;
+	padding: .9em 0 .3em 0;
+}
+h3 {
+	font-family: Arial;
+	font-size: .8em;
+    	color: #464339;
+	font-weight: bold;
+	padding: .9em 0 .3em 12px;
+}
+
+h2 {
+ 	color: #1d40a6;
+	color: #4d4641;
+}
+
+a:link {
+	text-decoration: none;
+	color: #c96312;
+ 	color: #1d40a6;
+}
+a:visited {
+	color: #c96312;
+ 	color: #1d40a6;
+	text-decoration: none;
+}
+a:hover,
+a:active {
+	text-decoration: underline;
+}
+p, ul.links li {
+	font-family: Georgia, serif;
+	font-size: .8em;
+	line-height: 1.45em;
+	vertical-align: top;
+	padding: 0 0 0 12px;
+}
+p {
+	margin-bottom: 1em;
+}
+ul#browselist {
+	font-family: Verdana, sans-serif;
+	font-size: .7em;
+	font-weight: bold;
+	list-style: none;
+	padding: .7em 0 0 0;
+	text-align: center;
+}
+ul#browselist li {
+	display: inline;
+	line-height: 1.45em;
+}
+ul#browselist li a {
+	background: #dbd6cf;
+	border: 1px solid #aba591;
+	color: black;
+	padding: 1px 2px;
+	text-decoration: none;
+}
+ul#browselist li a:hover {
+	background: #cec8bf;
+}
+a {
+	color: #c96312;
+	font-weight: bold;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+input, select {
+	border: 1px solid #aaa;
+}
+
+#leftimage {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-width: thin;
+    border-color: black;
+    border-style: solid
+}   
+#rightimage {
+    float: right;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border-width: thin;
+    border-color: black;
+    border-style: solid
+}   
+    
+div#caption {
+    font-size: .6em;
+    font-family: Verdana, Ariel, sans-serif;
+    text-align: left;
+    padding: 0 10px 30px 10px;
+}
+    
+em {
+    font-style: italic;
+    font-weight: bold;
+}
+
+div#list {
+    	font-family: Georgia, serif;
+	font-size: .8em;
+	line-height: 1.3em;
+	vertical-align: top;
+        padding: 0 0 0 20px;
+}
+
+div#collections {
+    	font-family: Georgia, serif;
+	font-size: .8em;
+    
+	vertical-align: top;
+        padding: 0 0 0 25px;
+}
+
+div#list li{
+    margin-bottom: .8em;
+}
+

@@ -1,0 +1,34 @@
+/*
+ * get an associative array of url parameters.
+ * 
+ * input: none
+ * output: associative array of url parameters. 
+ * e.g. parseUrlParams()['doc']
+ */
+
+function parseUrlParams() {
+	var tmp = window.location.href.split('?');
+	if (tmp.length < 2)
+		return '';
+
+	var params = new Array();
+	var parampairs = tmp[1].split('&');
+	var p = 0;
+	while (p < parampairs.length) {
+		var keyvalue = parampairs[p].split('=');
+		if (keyvalue.length < 2) 
+			params[keyvalue[0]] = '';
+		else
+			params[keyvalue[0]] = keyvalue[1];
+		p++;
+	}
+	return params;
+}
+
+function getFlashVars() {
+	var p = parseUrlParams();
+	var obj = p['obj'];
+	var f = '';
+	f += 'imagepath=' + p['obj'];
+}
+
