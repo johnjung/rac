@@ -1,6 +1,7 @@
 # Installing this site
 
-To install this site, start by building a copy of the Universal Viewer:
+To install a development version of this site, start by building a copy of the
+Universal Viewer:
 
 ```console
 git clone https://github.com/UniversalViewer/universalviewer.git
