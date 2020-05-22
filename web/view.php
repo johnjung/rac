@@ -26,16 +26,22 @@
         <div id="uv"></div>
 
         <script type="text/javascript">
+            urlDataProvider = new UV.URLDataProvider();
+            var cv = Number(urlDataProvider.get('cv', 0));
+
             // rose
             if (window.location.href.indexOf("doc=1380") !== -1) {
+                console.log('rose');
                 var manifest_uri = "https://iiif-manifest.lib.uchicago.edu/rac/1380/rac-1380.json"; 
             } else {
+                console.log('chess');
                 var manifest_uri = "https://iiif-manifest.lib.uchicago.edu/rac/0392/rac-0392.json";
             }
             var uv = createUV("uv", {
                 manifestUri: manifest_uri,
                 assetsDir: "uv/uv-assets",
-                configUri: "uv-config.json"
+                configUri: "uv-config.json",
+                canvasIndex: cv
             }, new UV.URLDataProvider());
         </script>
 
