@@ -31,10 +31,10 @@
 
             if (window.location.href.indexOf("doc=1380") !== -1) {
                 // rose
-                var manifest_uri = "https://iiif-manifest.lib.uchicago.edu/ark:61001/b23w2sh1945k";
+                var manifest_uri = "https://iiif-collection.lib.uchicago.edu/object/ark:/61001/b23w2sh1945k.json";
             } else {
                 // chess
-                var manifest_uri = "https://iiif-manifest.lib.uchicago.edu/ark:61001/b2hd4d25q386";
+                var manifest_uri = "https://iiif-collection.lib.uchicago.edu/object/ark:/61001/b2hd4d25q386.json";
             }
             var uv = createUV("uv", {
                 manifestUri: manifest_uri,
